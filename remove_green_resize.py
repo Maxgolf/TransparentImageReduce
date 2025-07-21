@@ -36,3 +36,6 @@ for filename in os.listdir(INPUT_FOLDER):
         # Save as transparent webp
         img.save(output_path, "WEBP", lossless=True)
         print(f"Processed: {filename} -> {output_filename}")
+    
+# === Completion ===
+print("Processing complete. All images have been resized and saved.")
